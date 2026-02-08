@@ -1,0 +1,17 @@
+{
+  "name": "poetry-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for digitizing handwritten Spanish poems",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^5.3.4",
+    "googleapis": "^144.0.0",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^6.17.0",
+    "sharp": "^0.34.5"
+  }
+}
